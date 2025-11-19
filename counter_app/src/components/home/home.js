@@ -20,12 +20,19 @@ return (
     <div>
         <Button name="Inc" className="btn-color" />
         <Button name="ashmit"  bgColor="blue" fontSize="30px"/>
-        {/* <Card title="Ashmit" describe="I created a step-by-step CRA counter app guide (with full file contents) in a canvas titled “CRA Counter App - Step-by-step”. Open the document to copy the commands and code into your project."/>
-        <Card title="Ashmit" describe="I created a step-by-step CRA counter app guide (with full file contents) in a canvas titled “CRA Counter App - Step-by-step”. Open the document to copy the commands and code into your project."/>
-        <Card title="Ashmit" describe="I created a step-by-step CRA counter app guide (with full file contents) in a canvas titled “CRA Counter App - Step-by-step”. Open the document to copy the commands and code into your project."/> */}
-    {cardData.map(cd => (
-        <Card describe={cd.desc} />
-    ))}
+        <br></br>
+        <Card title="LUCKNOW PUBLIC " describe="STUDENT: ASHMIT DUBEY " name="CLASS: PLAY" sec="ROLL NO. :666" bgColor="rgb(246, 230, 230)"/>
+        <br></br>
+        <Card title="CMS" describe="STUDENT: AMIT BHAIYA " name="CLASS: PREP" sec="ROLL NO. :555" bgColor="rgba(240, 249, 190, 1)"/>
+        <br></br>
+        <Card title="ST. MARRY" describe="STUDENT: EMRAN BHAIYA" name="CLASS: 11th" sec="ROLL NO. :13" bgColor="rgba(172, 253, 237, 1)"/>
+        <br></br>
+        <Card title="ST. JOSEPH" describe="STUDENT: FARAZ BHAIYA " name="CLASS: IIIrd" sec="ROLL NO. :324" bgColor="rgba(255, 210, 182, 1)"/>
+        <br></br>
+        <Card title="STELLA MARRY" describe="STUDENT: PAPPU BAJPAI " name="CLASS: IST" sec="ROLL NO. :888" bgColor="rgba(185, 186, 253, 1)"/>
+    {/* {cardData.map(cd => (
+        <Card describe={cd.desc} /> */}
+    {/* ))} */}
     
     </div>
 )
